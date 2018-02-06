@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>SignUp</title>
+    </head>
+    <body>
+				
+			<h1>
+                <font face = "Algerian" size="5" color="white">
+                    <img src="sky-logo.png" style="border-radius: 25px" width="200" height="70" style="vertical-align:bottom;" />Wonders of Events
+                </font>
+            </h1>
+
+		<div class="topnav">
+            <a href="EventManagementWePage.html">Home</a>
+            <a href="UpcomingEvents.html">Upcoming Events</a>            
+            <a href="Contact.html">Contact</a>
+            <a href="About.html">About</a>
+            <a class="active" href="SignUp.html" style="float:right">SignUp</a>
+        </div>    
+		<br><br>
+        <div class="registration-form">
+            <form class="registration">
+                <input type="text" name="Name" id="name"
+                placeholder="Name"><br><br>
+                    
+                <input type="text" name="User-Name" id="username" placeholder="User-Name"><br><br>
+                
+                <input type="email" name="Email-id" id="email" placeholder="Email-id"><br><br>
+                
+                <input type="password" name="Password" id="pwd" placeholder="Password"><br><br>
+                
+                <input type="password" name="CPassword" id="confirmpwd" placeholder="Confirm Password"><br><br>
+                
+                <select id="select_option">
+                    <option>+91</option>
+                    <option>+92</option>
+                    <option>+93</option>
+                    <option>+94 </option> 
+                </select>                
+                <input type="number" name="num" id = "Mobile_No" placeholder="Mobile No">
+                
+                <br><br>
+                
+                <input type="radio" name="gender" id="male">
+                &nbsp;&nbsp;
+                    <span id="gender_radio">Male</span>
+                <input type="radio" name="gender" id="female">
+                &nbsp;&nbsp;
+                    <span id="gender_radio">Female</span>
+                <input type="radio" name="gender" id="other"> 
+                &nbsp;&nbsp;
+                    <span  id="gender_radio">Other</span>                
+                <br><br>
+                
+                <b><input type="submit" name="Sign_up" id="submit" placeholder="Sign Up" onclick="return check()"></b>
+                <script src="validate.js"></script>
+            </form>
+        </div>
+        <footer align="right" style="padding-right: 10px"><font color="white">Copyright &copy; Vidhi Agrawal</font></footer>
+
+	</body>
+</html> 

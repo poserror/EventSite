@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EventDetails.xslt"?>
+<EventDetails>
+    <event>
+        <name>Runbhoomi</name>
+        <date>25 Feb</date>
+        <fees>150</fees>
+        <category>Technical</category>
+    </event>
+    <event>
+        <name>Foootball Fest</name>
+        <date>2 March 2018</date>
+        <fees>500</fees>
+        <category>Sports</category>
+    </event>
+    <event>
+        <name>FireBall</name>
+        <date>20 Feb 2018</date>
+        <fees>0</fees>
+        <category>Non-Technical</category>
+    </event>
+    <event>
+        <name>ArchyutPolan</name>
+        <date>15 Feb 2018</date>
+        <fees>350</fees>
+        <category>Cultural</category>
+    </event>
+    <event>
+        <name>Inspected Mushroom</name>
+        <date>19 April 2018</date>
+        <fees>300</fees>
+        <category>Seminar</category>
+    </event>
+    <event>
+        <name>Christmas</name>
+        <date>14 Feb 2018</date>
+        <fees>1000</fees>
+        <category>Seminar</category>
+    </event>
+    <event>
+        <name>Dark</name>
+        <date>25 May 2018</date>
+        <fees>1350</fees>
+        <category>Technical</category>
+    </event>
+    <event>
+        <name>Regan</name>
+        <date>19 March 2018</date>
+        <fees>150</fees>
+        <category>Technical</category>
+    </event>
+</EventDetails>
